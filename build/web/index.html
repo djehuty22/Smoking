@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Smoking's Effect on Lifespan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="content">
+            <h1 id="page-title">Smoking's Effect on Lifespan</h1>
+            <form method="POST" action="Calculate">
+                <div id="dates">                  
+                    <div id="startDate-components">
+                        <label for="startDate">Start Date</label><input id="startDate" name="startDate" type="datetime-local">
+                    </div>
+                    <div id="endDate-components">
+                        <label for="endDate">End Date</label><input id="endDate" name="endDate" type="datetime-local">
+                    </div>
+                    <div id="birthday-components">
+                        <label for="birth-date">Date of Birth</label><input id="birth-date" name="birth-date" type="datetime-local">
+                    </div> 
+                    <div id="cigarettes-components">
+                        <label for="cigarettes-daily">Cigarettes per day</label><input id="cigarettes-daily" name="cigarettes-daily" type="number" min="1">
+                    </div> 
+                    <input id="submit" type="submit">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Mike Medina</p>
+        </footer>
+    </body>
+</html>
